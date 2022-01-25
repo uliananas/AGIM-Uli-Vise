@@ -33,7 +33,30 @@
 
 
     <!-- barra di navigazione con le voci: home appartamenti case offerte contatti -->
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">AGIM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Appartamenti</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Case</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Offerte</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contatti</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <!-- carousel 1920 x 700 con cinque foto e relativi testi -->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -93,7 +116,45 @@
       </div>
 
     <!-- breadcrumb che dice in che sezione siamo -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+      </nav>
+      
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Appartamenti</li>
+        </ol>
+      </nav>
+      
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Appartamenti</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Case</li>
+        </ol>
 
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Appartamenti</a></li>
+              <li class="breadcrumb-item"><a href="#">Case</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Offerte</li>
+            </ol>
+          </nav>
+
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Appartamenti</a></li>
+              <li class="breadcrumb-item"><a href="#">Case</a></li>
+              <li class="breadcrumb-item"><a href="#">Offerte</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Contatti</li>
+            </ol>
+          </nav>
+      </nav>
     <!-- due colonne con due banner 800 x 600 da creare:
         Anni sereni: il nuovo residence per anziani all-inclusive
         Home & Work: le soluzioni per single che lavorano da casa
